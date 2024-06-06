@@ -9,8 +9,9 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  ssr: true,
   nitro: {
-    preset: "cloudflare-pages",
+    preset: 'cloudflare'
   },
   modules: ["@nuxt/ui"]
 })
